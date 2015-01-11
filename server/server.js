@@ -79,6 +79,7 @@ function changeText(text) {
             
         case 'rave': rave(); break;
         case 'stop': clearInterval(raveInterval); break;
+        case 'reset': changeColor(255,255,255);setCurrColor(255,255,255); text = "Welcome!";break;
         
     }
     
