@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+
+        <!--Cannot be transparent-->
+        <item name="android:colorPrimary">@color/intel_blue</item>
+
+        <!--Can be transparent-->
+        <item name="android:colorPrimaryDark">@color/intel_blue_dark</item>
+
+        <!--Can be transparent-->
+        <item name="android:colorAccent">@color/intel_blue</item>
+
+        <!--Can be transparent-->
+        <item name="android:navigationBarColor">@color/intel_blue</item>
+    </style>
+</resources>
